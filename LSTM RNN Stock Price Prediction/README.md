@@ -57,7 +57,7 @@ Batch Size: 32
 Epochs: 150
 
 EarlyStopping: with val_loss, patience of 10 epochs
-
+```
 
 📊 Model Evaluation
 The model was evaluated using the following metrics:
