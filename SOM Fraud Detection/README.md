@@ -44,6 +44,7 @@ Bright cells: high mean inter-neuron distance (potential outliers)
 
 Markers: show approved (green) and rejected (red) applications
 
+```python
 from pylab import bone, pcolor, colorbar, plot, show
 bone()
 pcolor(som.distance_map().T)
@@ -62,7 +63,7 @@ for i, x in enumerate(X):
          markeredgewidth = 2)
 show()
 
-
+```
 
 
 📊 Dataset Information
